@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body,
+div#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+/* Variables
+==================================== */
+
+:root {
+  --nav-input-section-bg: #edf3f8;
+  --nav-login-button-text-and-border-color: #0a66c2;
+  --nav-join-button-text-color: #000000bf;
+  --nav-input-text-color: #000000e6;
+  --nav-input-placeholder-color: #00000099;
+  --nav-input-border-color: #00000014;
+  --nav-input-border-right-color: #00000014;
+}
+
+.fontFamily {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.navJoinButton:hover {
+  background: #0000000a;
+}
+
+.navSignInButton:hover {
+  background: #eff6fe;
+  box-shadow: 0 0 0 1px #b3c5d7;
+  border-color: #004182;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
